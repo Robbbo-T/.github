@@ -1,3 +1,4 @@
+Ampel | ComTech 4.0 is a transformative initiative focused on harnessing the power of Industry 4.0 technologies to drive innovation and sustainability across various sectors, particularly in aerospace, quantum computing, and digital infrastructure. Building on the principles of the Fourth Industrial Revolution, Ampel | ComTech 4.0 aims to integrate advanced technologies like AI, IoT, big data, and quantum computing into industrial applications, creating a new paradigm for technological advancement.
 # Citizen Code of Conduct
 
 ## 1. Purpose
