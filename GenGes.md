@@ -452,6 +452,7 @@ def update_trajectory(connectivity, weight):
 # Ejecutar la aplicación
 if __name__ == '__main__':
     app.run_server(debug=True)
+'''
 
 Descripción del Código:
 	1.	Interfaz de Usuario: Incluye controles para ajustar la conectividad y el peso de las aristas.
