@@ -1,4 +1,3 @@
-```markdown
 # GenGes: Redes Generativas Energéticas en Sistemas Evolutivos Generales
 
 **Autor:**  
