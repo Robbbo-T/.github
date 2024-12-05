@@ -1,4 +1,4 @@
-# GenGes: Redes Generativas Energéticas en Sistemas Evolutivos Generales
+## GenGes: Redes Generativas Energéticas en Sistemas Evolutivos Generales
 
 **Autor:**  
 Amedeo Pelliccia
@@ -324,7 +324,7 @@ Para facilitar una comprensión más profunda y dinámica de las simulaciones, s
 - **Investigación:** Herramienta valiosa para investigadores que deseen experimentar con diferentes configuraciones y observar resultados en tiempo real.
 
 **Ejemplo de Implementación:**  
-Para ver el código completo y detallado de cómo se implementa este dashboard interactivo, por favor consulte la [Sección 10.1: Código Python](#código-python-scripts-para-simulaciones-computacionales).
+Para ver el código completo y detallado de cómo se implementa este dashboard interactivo, por favor consulte la [Sección 11.1: Código Python](#código-python-scripts-para-simulaciones-computacionales).
 
 ---
 
@@ -604,7 +604,7 @@ nx.draw(G, pos, with_labels=True, node_color='lightblue', arrows=True)
 labels = nx.get_edge_attributes(G, 'peso')
 nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
 plt.title("Red Generativa Energética (GenGes)")
-plt.show()'
+plt.show()```
 
 Explicación del Código:
 	1.	Definición de Nodos y Aristas:
@@ -647,6 +647,7 @@ El gráfico muestra cómo varía la eficiencia energética en función de las tr
 
 Se incluye el código Python utilizado para las simulaciones presentadas en la Sección 5.3: Resultados y Visualizaciones, con comentarios detallados para facilitar su comprensión y replicación.
 
+```python
 import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -698,7 +699,7 @@ nx.draw(G, pos, with_labels=True, node_color='lightblue', arrows=True)
 labels = nx.get_edge_attributes(G, 'peso')
 nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
 plt.title("Red Generativa Energética (GenGes)")
-plt.show()
+plt.show()```
 
 Instrucciones para la Ejecución:
 	1.	Asegurarse de tener instaladas las librerías necesarias: numpy, networkx, matplotlib.
@@ -762,3 +763,21 @@ Resultados:
 
 Conclusión de los Métodos:
 Los métodos experimentales demuestran que GenGes supera significativamente a las metodologías tradicionales en términos de eficiencia, reducción de pérdidas, predicción de fallos y ahorro de costos, validando su efectividad como herramienta de optimización y gestión energética.
+
+**Notas Importantes:**
+
+1. **Enlaces de Referencia:**  
+   En las secciones donde originalmente se encontraban los extractos de código, ahora se ha colocado un enlace que dirige a la sección de Anexos. Por ejemplo, en la **Subsección 5.4: Visualizaciones Interactivas**, se incluye `[Ver Código en Anexos](#código-python-scripts-para-simulaciones-computacionales)` para dirigir al lector al código completo al final del documento.
+
+2. **Organización de Anexos:**  
+   Todos los extractos de código se han movido a la **Sección 11: Anexos**, específicamente en la subsección **11.1 Código Python: Scripts para Simulaciones Computacionales**. Esto mantiene el flujo del documento principal limpio y enfocado en las explicaciones y resultados, mientras que los detalles técnicos se encuentran al final para referencia.
+
+3. **Referencias Claras:**  
+   Al referenciar el código en los puntos principales, se utiliza una nomenclatura clara que facilita al lector entender dónde puede encontrar los detalles técnicos completos sin interrumpir la lectura del contenido principal.
+
+4. **Consistencia y Claridad:**  
+   Se ha asegurado que todas las referencias y enlaces sean consistentes y claros, facilitando la navegación a través del documento.
+
+5. **Imágenes y Diagramas:**  
+   Se mantienen los placeholders para imágenes (`https://i.imgur.com/YourImageLink.png`) que deben ser reemplazados con los enlaces reales de los diagramas y gráficos utilizados en el documento final.
+
